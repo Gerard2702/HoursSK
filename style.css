@@ -1,28 +1,42 @@
 @font-face {
-   font-family: "San francisco";
-   src: url(public/fonts/SFProDisplay-Medium.ttf) format("truetype");
+    font-family: "San francisco";
+    src: url(public/fonts/SFProDisplay-Medium.ttf) format("truetype");
 }
 
-body{
-   font-family: 'San francisco' !important;
-   
+body {
+    font-family: 'San francisco' !important;
 }
 
-h1 h2 h3 h4 h5 h6 p{
-   color: #5A5A5A !important;
-}
-h2{
-   color: #5A5A5A !important;
+h1 h2 h3 h4 h5 h6 p {
+    color: #5A5A5A !important;
 }
 
-h6{
-   color: #5A5A5A !important;
+h2 {
+    color: #5A5A5A !important;
 }
 
-h5{
-   color: #5A5A5A !important;
+h6 {
+    color: #5A5A5A !important;
 }
 
-.mdl-button--raised.mdl-button--colored{
-   background: #039BE5 !important;
+h5 {
+    color: #5A5A5A !important;
+}
+
+p {
+    color: #5A5A5A !important;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #039BE5 !important;
+}
+
+.list-group-item {
+    padding: .5rem 0.75rem !important;
+}
+
+.divTimeLogged {
+    padding: .5rem 1rem !important;
+    font-size: 1.15rem;
+    height: 48px !important;
 }
